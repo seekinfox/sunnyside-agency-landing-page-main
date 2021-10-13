@@ -65,13 +65,6 @@ header {
         grid-area: f;
     }
 
-    @media (min-width:700px) {
-        grid-template-areas:
-            "a a b b"
-            "d d c c"
-            "e e f f";
-    }
-
 }
 
 .container-two {
@@ -84,9 +77,6 @@ header {
         flex-direction: column;
         align-items: center;
 
-        @media (min-width:700px) {
-            flex-direction: row;
-        }
     }
 
 
@@ -105,28 +95,22 @@ header {
         "a a b b"
         "c c d d";
 
-    @media (min-width:700px) {
-        grid-template-areas:
-            "a a b b c c d d"
-            "a a b b c c d d";
-    }
-
-    img:nth-of-type(1) {
+    div:nth-of-type(1) {
         grid-area: a;
 
     }
 
-    img:nth-of-type(2) {
+    div:nth-of-type(2) {
         grid-area: b;
 
     }
 
-    img:nth-of-type(3) {
+    div:nth-of-type(3) {
         grid-area: c;
 
     }
 
-    img:nth-of-type(4) {
+    div:nth-of-type(4) {
         grid-area: d;
 
     }
@@ -141,10 +125,6 @@ footer {
     .extra-links {
         display: flex;
         justify-content: space-evenly;
-
-        @media (min-width:700px) {
-            justify-content: space-around;
-        }
     }
 
     .icons {

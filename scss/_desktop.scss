@@ -1,13 +1,210 @@
 @media (min-width: 700px) {
     header {
-        width: 99vw; //fix this
+        width: 100%; //fix this
         height: 100vh;
+        background-color: cyan;
         background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-header.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
 
         .header-img {
             display: none;
+        }
+
+        .menu-desktop {
+            display: block;
+
+            a {
+                font-family: $barlow;
+                color: $White;
+                margin-right: 2.5rem;
+                text-decoration: none;
+            }
+
+            a:last-child {
+                font-size: 15px;
+                color: $Very-dark-desaturated-blue;
+                background: rgba(255, 255, 255, 1);
+                padding: .7rem 1.5rem;
+                border-radius: 5rem;
+            }
+
+            a:last-child:hover {
+                color: $White;
+                background: rgba(255, 255, 255, 0.5);
+            }
+
+        }
+
+        .header-top1 {
+            .menu {
+                display: none;
+            }
+        }
+
+        .heading-section {
+            width: 100%;
+            left: 0;
+            right: 0;
+
+            .arrow {
+                margin-top: 12%;
+            }
+        }
+
+    }
+
+    .container {
+        grid-template-columns: repeat(auto-fit, 1fr);
+        grid-auto-rows: auto;
+        grid-template-areas:
+            "b b a a"
+            "b b a a"
+            "c c d d"
+            "c c d d"
+            "e e f f"
+            "e e f f";
+
+        div > img {
+            display: none;
+        }
+
+        div {
+            height: 75vh;
+        }
+
+        .one {
+            background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-transform.jpg");
+        }
+
+        div:nth-of-type(2),
+        div:nth-of-type(4) {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: left;
+            padding: 5.5rem;
+
+            h3 {
+                font-size: 2rem;
+            }
+
+            p {
+                text-indent: 0px;
+            }
+
+            a {
+                margin-left: 1rem;
+            }
+        }
+
+        .three {
+            background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-stand-out.jpg");
+        }
+
+        .five {
+            background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-graphic-design.jpg");
+        }
+
+        .six {
+            background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-photography.jpg");
+        }
+
+        div:nth-of-type(5),
+        div:nth-of-type(6) {
+            height: 31.7rem;
+
+            .inner-div {
+                bottom: 0;
+                top: 67%;
+                padding: 0 8rem;
+            }
+        }
+
+    }
+
+    .container-two {
+        padding-top: 8.5rem;
+        padding-bottom: 6.6rem;
+
+        h4 {
+            font-size: 18px;
+        }
+
+        .card-container {
+            flex-direction: row;
+            
+            .card {
+
+                padding: 2rem 3rem;
+
+                img {
+                    width: 20%;
+                    margin-bottom: 3rem;
+                }
+
+                p:nth-of-type(1) {
+                    margin-bottom: 3.5rem;
+                }
+
+            }
+        }
+    }
+
+    .container3 {
+        grid-template-areas:
+            "a a b b c c d d"
+            "a a b b c c d d";
+
+        img {
+            display: none;
+        }
+
+        div {
+            width: 100%;
+            height: 65vh;
+        }
+
+        @mixin size {
+            background-size: 100% 100%;
+        }
+
+        div:nth-of-type(1) {
+            background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-gallery-milkbottles.jpg");
+            @include size;
+
+        }
+
+        div:nth-of-type(2) {
+            background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-gallery-orange.jpg");
+            @include size;
+
+        }
+
+        div:nth-of-type(3) {
+            background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-gallery-cone.jpg");
+            @include size;
+
+        }
+
+        div:nth-of-type(4) {
+            background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-gallery-sugarcubes.jpg");
+            @include size;
+
+        }
+    }
+
+    footer {
+        .extra-links {
+            justify-content: center;
+
+            a {
+                margin-right: 1rem;
+                margin-left: 1rem;
+            }
         }
     }
 }
