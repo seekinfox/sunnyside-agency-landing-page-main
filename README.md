@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/Screenshot_2021-10-13%20Frontend%20Mentor%20Sunnyside%20agency%20landing%20page(2).png](https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/Screenshot_2021-10-13%20Frontend%20Mentor%20Sunnyside%20agency%20landing%20page(2).png)
+![https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/Screenshot_2021-10-13%20Frontend%20Mentor%20Sunnyside%20agency%20landing%20page.png](https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/Screenshot_2021-10-13%20Frontend%20Mentor%20Sunnyside%20agency%20landing%20page.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/seekinfox/sunnyside-agency-landing-page-main](https://github.com/seekinfox/sunnyside-agency-landing-page-main)
+- Live Site URL: [https://seekinfox.github.io/sunnyside-agency-landing-page-main/](https://seekinfox.github.io/sunnyside-agency-landing-page-main/)
 
 
 ### Built with
