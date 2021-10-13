@@ -1,0 +1,154 @@
+//.container * {
+//    outline: 1px dotted blue;
+//}
+header {
+    display: flex;
+    flex-direction: column;
+
+    .header-top1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .menu {
+            .menu-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+    }
+
+    .heading-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.container {
+    display: grid;
+    //    grid-row-gap: 3.5rem;
+    grid-template-columns: repeat(auto-fit, auto);
+    grid-auto-rows: auto;
+    grid-template-areas:
+        "a a"
+        "b b"
+        "c c"
+        "d d"
+        "e e"
+        "f f";
+
+    .one {
+        grid-area: a;
+    }
+
+    .two {
+        grid-area: b;
+    }
+
+    .three {
+        grid-area: c;
+    }
+
+    .four {
+        grid-area: d;
+    }
+
+    .five {
+        grid-area: e;
+    }
+
+    .six {
+        grid-area: f;
+    }
+
+    @media (min-width:700px) {
+        grid-template-areas:
+            "a a b b"
+            "d d c c"
+            "e e f f";
+    }
+
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (min-width:700px) {
+            flex-direction: row;
+        }
+    }
+
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.container3 {
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    grid-template-areas:
+        "a a b b"
+        "c c d d";
+
+    @media (min-width:700px) {
+        grid-template-areas:
+            "a a b b c c d d"
+            "a a b b c c d d";
+    }
+
+    img:nth-of-type(1) {
+        grid-area: a;
+
+    }
+
+    img:nth-of-type(2) {
+        grid-area: b;
+
+    }
+
+    img:nth-of-type(3) {
+        grid-area: c;
+
+    }
+
+    img:nth-of-type(4) {
+        grid-area: d;
+
+    }
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .extra-links {
+        display: flex;
+        justify-content: space-evenly;
+
+        @media (min-width:700px) {
+            justify-content: space-around;
+        }
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+}

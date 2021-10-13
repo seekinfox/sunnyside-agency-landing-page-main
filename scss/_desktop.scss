@@ -1,0 +1,13 @@
+@media (min-width: 700px) {
+    header {
+        width: 99vw; //fix this
+        height: 100vh;
+        background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .header-img {
+            display: none;
+        }
+    }
+}
