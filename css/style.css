@@ -468,6 +468,12 @@ footer .icons > *:hover path {
     color: white;
     background: rgba(255, 255, 255, 0.5);
   }
+  header .header-top1 {
+    padding-top: 1rem;
+  }
+  header .header-top1 .logo {
+    width: 9rem;
+  }
   header .header-top1 .menu {
     display: none;
   }
@@ -476,8 +482,12 @@ footer .icons > *:hover path {
     left: 0;
     right: 0;
   }
+  header .heading-section h1 {
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
   header .heading-section .arrow {
-    margin-top: 12%;
+    margin-top: 6rem;
   }
 
   .container {
@@ -489,10 +499,11 @@ footer .icons > *:hover path {
     display: none;
   }
   .container div {
-    height: 75vh;
+    height: 28rem;
   }
   .container .one {
     background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-transform.jpg");
+    background-size: 100% 100%;
   }
   .container div:nth-of-type(2),
 .container div:nth-of-type(4) {
@@ -519,6 +530,7 @@ footer .icons > *:hover path {
   }
   .container .three {
     background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-stand-out.jpg");
+    background-size: 100% 100%;
   }
   .container .five {
     background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-graphic-design.jpg");
@@ -529,6 +541,7 @@ footer .icons > *:hover path {
   .container div:nth-of-type(5),
 .container div:nth-of-type(6) {
     height: 31.7rem;
+    background-size: 100% 100%;
   }
   .container div:nth-of-type(5) .inner-div,
 .container div:nth-of-type(6) .inner-div {
@@ -566,7 +579,7 @@ footer .icons > *:hover path {
   }
   .container3 div {
     width: 100%;
-    height: 65vh;
+    height: 24rem;
   }
   .container3 div:nth-of-type(1) {
     background: url("https://raw.githubusercontent.com/seekinfox/sunnyside-agency-landing-page-main/main/images/desktop/image-gallery-milkbottles.jpg");
