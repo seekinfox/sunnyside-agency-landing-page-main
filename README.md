@@ -38,13 +38,16 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- SCSS/SASS
+- JavaScript
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 
 ### Continued development
-
-
+css grid/ javascript
+I have tried building this landing page without planning the layout beforehand. That lead to a lot of new mistakes and new learnings.
+Website code is hard to maintain, but it taught me a lot. 
 
 ## Author
 
